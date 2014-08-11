@@ -2,8 +2,6 @@ package Beginner;
 
 import java.util.Scanner;
 
-// 11/07/14: ranked nr. 93 (java)
-
 public class SummingConsecutiveIntegers {
 
     public static void main(String[] args) {

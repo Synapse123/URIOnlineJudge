@@ -3,8 +3,6 @@ package Beginner;
 import java.util.Locale;
 import java.util.Scanner;
 
-// 11/07/14: ranked nr. 68 (java)
-
 public class RightArea {
 
     public static void main(String[] args) {

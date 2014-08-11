@@ -2,7 +2,7 @@ package Beginner;
 
 import java.util.Scanner;
 
-// 11/07/14: ranked nr. 22 (java)
+// 11/07/14: ranked nr. 3 (java)
 
 public class SquareMatrixIII {
 
