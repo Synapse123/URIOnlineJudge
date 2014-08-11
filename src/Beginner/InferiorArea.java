@@ -3,6 +3,8 @@ package Beginner;
 import java.util.Locale;
 import java.util.Scanner;
 
+// 11/07/14: ranked nr. 67 (java)
+
 public class InferiorArea {
 
     public static void main(String[] args) {

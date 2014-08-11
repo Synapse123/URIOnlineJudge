@@ -2,7 +2,8 @@ package Beginner;
 
 import java.util.Scanner;
 
-// Scored performance rank 13
+// 11/07/14: ranked nr. 76 (java)
+
 public class LogicalSequence2 {
 
     public static void main(String[] args) {

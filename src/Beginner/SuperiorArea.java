@@ -3,6 +3,8 @@ package Beginner;
 import java.util.Locale;
 import java.util.Scanner;
 
+// 11/07/14: ranked nr. 70 (java)
+
 public class SuperiorArea {
 
     public static void main(String[] args) {
