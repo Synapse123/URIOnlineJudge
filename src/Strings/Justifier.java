@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 17/07/14: ranked nr. 5 (java)
+// 17/08/14: ranked nr. 5 (java)
 
 public class Justifier {
 

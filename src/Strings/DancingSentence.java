@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 15/07/14: ranked nr. 4 (java)
+// 15/08/14: ranked nr. 4 (java)
 
 public class DancingSentence {
 

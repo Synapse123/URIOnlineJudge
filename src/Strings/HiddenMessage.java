@@ -4,9 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 15/08/14: ranked nr. 8 (java)
+// 18/08/14: ranked nr. 2 (java)
 
-public class Encryption {
+public class HiddenMessage {
 
     public static void main(String[] args) throws IOException{
 
@@ -14,26 +14,25 @@ public class Encryption {
         StringBuilder sb = new StringBuilder();
 
         int n = Integer.parseInt(br.readLine());
-        String line;
-        int length;
 
         for(int i = 0; i < n; i++){
 
-            line = br.readLine();
-            length = line.length();
+            String line = br.readLine();
+            int length = line.length();
+            boolean space = true;
 
-            for(int j = length - 1; j >= 0; j--){
+            for(int j = 0; j < length; j++){
 
                 char c = line.charAt(j);
 
-                if(c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z'){
-                    c += 3;
+                if(c == ' '){
+                    space = true;
+                }else{
+                    if(space){
+                        sb.append(c);
+                    }
+                    space = false;
                 }
-                if(j <= Math.ceil(length/2.0) - 1){
-                    c -= 1;
-                }
-
-                sb.append(c);
 
             }
 

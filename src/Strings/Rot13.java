@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 14/07/14: ranked nr. 3 (java)
+// 14/08/14: ranked nr. 3 (java)
 
 public class Rot13 {
 

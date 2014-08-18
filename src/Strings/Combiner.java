@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 13/07/14: ranked nr. 11 (java)
+// 13/08/14: ranked nr. 11 (java)
 
 public class Combiner {
 
